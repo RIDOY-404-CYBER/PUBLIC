@@ -19,7 +19,7 @@ class RMX_XD:
    def models(self):
       import os
       try:
-   	 import pycurl,httpx
+        import pycurl,httpx
       except:
         os.system('pip install pycurl')
         os.system('pip install httpx')
