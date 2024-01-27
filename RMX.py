@@ -9,12 +9,21 @@ CREATED By RMX, 27 January 2024
 class RMX_XD:
    def __init__(self):
        self.update()
+       self.models()
        self.main_()
  
    def update(self):
        import os
        os.system('git pull')
- 
+   
+   def models(self):
+       import os
+   	try:
+   	  import pycurl,httpx
+       except:
+         os.system('pip install pycurl')
+         os.system('pip install httpx')
+         
    def main_(self):
        import os,platform
        bit = platform.architecture()[0]
