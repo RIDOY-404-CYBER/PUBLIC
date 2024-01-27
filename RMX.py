@@ -17,12 +17,12 @@ class RMX_XD:
        os.system('git pull')
    
    def models(self):
-       import os
+      import os
    	try:
-   	  import pycurl,httpx
-       except:
-         os.system('pip install pycurl')
-         os.system('pip install httpx')
+   	 import pycurl,httpx
+      except:
+       os.system('pip install pycurl')
+       os.system('pip install httpx')
          
    def main_(self):
        import os,platform
