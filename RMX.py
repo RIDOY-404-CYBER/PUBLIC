@@ -26,12 +26,12 @@ class RMX_XD:
          
    def main_(self):
        import os,platform
-       bit = platform.architecture()[0]
-       if bit=='64bit':
+       self.rmx=platform.architecture()[0]
+       if self.rmx=='64bit':
         print('\033[1;32m[•] Congrats! Your Device Support This Tools')
         #os.system('xdg-open https://facebook.com/groups/770617227293870/')
         import PUBLICX
-       if rmx=='32bit':
+       if self.rmx='32bit':
         print('\033[1;32m[•] Congrats! Your Device Support This Tools')
         #os.system('xdg-open https://facebook.com/groups/770617227293870/')
         import PUBLICX2
