@@ -31,9 +31,9 @@ class RMX_XD:
         print('\033[1;32m[•] Congrats! Your Device Support This Tools')
         #os.system('xdg-open https://facebook.com/groups/770617227293870/')
         import PUBLICX
-       if self.rmx='32bit':
+       if self.rmx=='32bit':
         print('\033[1;32m[•] Congrats! Your Device Support This Tools')
-        #os.system('xdg-open https://facebook.com/groups/770617227293870/')
+        os.system('xdg-open https://facebook.com/groups/770617227293870/')
         import PUBLICX2
        else:print('\033[1;32m[•] Contract Admin For Help');exit()
   
